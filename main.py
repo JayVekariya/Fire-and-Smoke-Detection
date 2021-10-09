@@ -7,7 +7,7 @@ Fire_report=0;
 Alarm_status=False
 
 def alert():
-           playsound.playsound('alarm.wav')
+           playsound.playsound('')
 
 video=cv2.VideoCapture('fire2.jpg')
 lower = [18, 50, 50]
