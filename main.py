@@ -45,7 +45,10 @@ while True:
     cv2.imshow('hsv',blur)
     cv2.waitKey(0)
 
-    cv2.imshow('output',fire_mask)
+    cv2.imshow('output_Fire',fire_mask)
+    cv2.waitKey(0)
+
+    cv2.imshow('output_Smoke',smoke_mask)
     cv2.waitKey(0)
 
     size_fire = cv2.countNonZero(fire_mask)
