@@ -68,8 +68,6 @@ while True:
             if cv2.waitKey(1) == 13:
                 break
 
-def alert():
-    playsound.playsound('')
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
